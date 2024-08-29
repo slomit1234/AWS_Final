@@ -1,7 +1,7 @@
 # AWS_Final
 #pic#
 
-on our final project we developed a Wolt.
+This application provides user management capabilities through an API built with AWS Lambda, API Gateway, and DynamoDB. It supports operations such as creating, retrieving, updating, and deleting users, as well as handling user profile pictures and likes.
 
 ## Technologies
 
@@ -92,7 +92,8 @@ great! you have deployed the code successfuly!
 
 
 # Our Solution:
-we have build a "Wolt" managment system:
+we have build a user management system
+
 <img width="767" alt="image" src="https://github.com/user-attachments/assets/47a67bed-62e3-42e7-bb94-c9234a595f0e">
 
 It supports operations such as creating, retrieving, updating, and deleting users, as well as handling user profile pictures and likes.
@@ -227,5 +228,7 @@ we have build a test that covers the following:
 
 
 #### Running the tests
-in order to run the test, you will need to run `npm test`
+in order to run the test, make sure you are on 'social-media-cdk' folder
+you can run the test with the command `npm test`
+<img width="439" alt="image" src="https://github.com/user-attachments/assets/db1ecbc2-3ca6-4516-bff1-11924c5da1b3">
 
