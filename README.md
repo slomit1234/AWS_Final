@@ -21,7 +21,9 @@ rm -rf awscliv2.zip aws
 
 Inside `Launch AWS Academy Learner Lab` section go to `AWS Details`
 and then click on `show` close to the `AWS CLI`.
-#picture#
+
+<img width="198" alt="image" src="https://github.com/user-attachments/assets/91a98af2-a172-4889-b4b6-c1b5c93879a4">
+
 copy the credentials.
 
 go back to the terminal, and write `aws configre` - put the right value according to the fields.
@@ -29,7 +31,6 @@ than, write `nano ~/.aws/credentials`
 double check your credentials, and add the file if needed.
 for verification, just write`aws s3 ls` 
 and make sure that you see some s3 bucket from you account. 
-#picture#
 
 #### Install AWS CDK 
 ```bash
