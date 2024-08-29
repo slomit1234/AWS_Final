@@ -31,6 +31,8 @@ than, write `nano ~/.aws/credentials`
 double check your credentials, and add the file if needed.
 for verification, just write`aws s3 ls` 
 and make sure that you see some s3 bucket from you account. 
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/0d67bd76-5c48-4ea5-97a7-59318242ff06">
+
 
 #### Install AWS CDK 
 ```bash
@@ -48,7 +50,7 @@ cdk --version
 > Note that: If you already bootstrap your account, no need to execute that action
 ```bash
 # Go to CDK Directory
-cd restaurants-cdk
+cd social-network-cdk
 
 # Install NPM models
 npm install
@@ -58,8 +60,8 @@ cdk bootstrap --template bootstrap-template.yaml
 ```
 
 ### Deploy the Base Stack
-Make sure that you are at folder `social-network-cdk`
-Change the Account ID and the VPC ID for your own details (on lib and bin folders),
+Make sure that you are at folder `social-network-cdk`, Change the Account ID and the VPC ID for your own details, you can find all the places easily when searching `#TODO` on lib and bin folders. 
+
 #output#
 
 
