@@ -104,6 +104,7 @@ After deployment, find the API URL in the CloudFormation outputs or AWS API Gate
 Update the `API_BASE_URL` in `index.html` (full path is \lambda\serveStaticContent\public\index.html) with the provided URL.
 
 ### Usage
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/f08423b5-d102-4852-a02d-bca303900110">
 
 1. **View User**
 
