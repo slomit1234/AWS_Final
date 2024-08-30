@@ -211,22 +211,12 @@ we have build a test that covers the following:
 | **Lambda Function**                  | **Edge Cases Checked**                                                                                   |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **`createUser`**                     | - Checks if the user is created successfully with valid input.                                             |
-|                                      | - Checks for an error response when the input is invalid (e.g., missing username or email).               |
 |                                      |                                                                                                           |
 | **`deleteUser`**                     | - Checks if an existing user is deleted successfully.                                                     |
 |                                      | - Checks for an error response when attempting to delete a non-existent user.                             |
 |                                      |                                                                                                           |
 | **`getUser`**                        | - Checks if the details of an existing user are returned successfully.                                     |
 |                                      | - Checks for an error response when attempting to retrieve a non-existent user.                           |
-|                                      |                                                                                                           |
-| **`updateUserProfilePicture`**       | - Checks if a pre-signed URL for uploading a profile picture is returned for a valid user.                |
-|                                      | - Checks if the system handles profile picture updates correctly for existing users.                      |
-|                                      |                                                                                                           |
-| **`getLikesForProfilePicture`**      | - Checks if the list of likes for an existing user’s profile picture is returned successfully.            |
-|                                      | - Checks for an empty list when there are no likes for the profile picture.                               |
-|                                      |                                                                                                           |
-| **`getAllUsers`**                    | - Checks if a list of all users is returned successfully.                                                 |
-|                                      | - (Note: This function doesn't have specific edge cases in the provided script, but typically handles large datasets gracefully).|
 
 
 #### Running the tests
