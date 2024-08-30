@@ -1,5 +1,6 @@
 # AWS_Final
-<img width="596" alt="image" src="https://github.com/user-attachments/assets/7319db80-c19d-4751-b9d6-cd4e2d18744e">
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/88c1de79-46e3-41fe-ac37-c98a6c667e0d">
+
 
 This application provides user management capabilities through an API built with AWS Lambda, API Gateway, and DynamoDB. It supports operations such as creating, retrieving, updating, and deleting users, as well as handling user profile pictures and likes.
 
